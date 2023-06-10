@@ -1,0 +1,62 @@
+ .body {
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(212, 45%, 89%);
+ }
+
+
+
+.QR-box {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    width: 330px;
+    height: 440px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 2px grey;
+    background-color: hsl(0, 0%, 100%);
+    
+}
+
+.QR {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+
+
+.improve {
+    padding-top: 25px;
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.scan {
+    color:hsl(213, 9%, 60%);
+    font-size: 14px;
+    text-align: center;
+  
+    
+   
+}
+
+.attribution {
+    padding-top: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
